@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Profile card of Sam Udoh, a Frontend Engineer based in Lagos State, Nigeria.">
+    <link rel="stylesheet" href="style.css">
+    <title>Sam Udoh - Frontend Engineer</title>
+</head>
+<body>
+    <main class="container">
+        <article class="card">
+            <div class="card-image">
+                <img src="./assets/image.png" alt="Sam Udoh's profile picture" width="100" height="100" data-testid="profilePicture">
+            </div>
+            <div class="card-content">
+                <header class="intro">
+                    <h1 class="name" data-testid="fullName">Hi, I'm <strong>Sam Udoh</strong></h1>
+                    <p class="title" data-testid="jobTitle">Frontend Engineer</p>
+                </header>
+                <p class="bio" data-testid="shortBio">
+                    Passionate Frontend Engineer with a keen eye for creating beautiful, 
+                    responsive web experiences. I specialize in building user-friendly interfaces using modern 
+                    web technologies and best practices. Always eager to learn and tackle new challenges in web development.
+                </p>
+                <address>
+                    <p data-testid="currentLocation">Lagos State, Nigeria</p>
+                    <p class="email" data-testid="emailAddress">
+                        E-mail: <a href="mailto:samudoh@gmail.com">samudoh@gmail.com</a>
+                    </p>
+                </address>
+                <ul class="links" aria-label="Social media links" data-testid="socialLinks">
+                    <li><a href="/" aria-label="X (formerly Twitter)">
+                        <img src="./assets/letter-x_14619693.png" alt="X" width="30" height="30">
+                    </a></li>
+                    <li><a href="/" aria-label="LinkedIn">
+                        <img src="./assets/linkedin_3991642.png" alt="LinkedIn" width="30" height="30">
+                    </a></li>
+                </ul>
+                <div id="ctime" data-testid="currentTimeUTC"></div>
+            </div>
+        </article>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
